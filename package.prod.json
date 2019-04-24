@@ -1,0 +1,19 @@
+{
+  "name": "ncp-framework",
+  "version": "1.0.0",
+  "description": "Base project for NCP REST",
+  "main": "src/app.ts",
+  "author": "Chayapol Limanon <chayapol.limanon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "api-spec-converter": "^2.7.8",
+    "kafka-node": "^2.6.1",
+    "routing-controllers-openapi": "^1.3.1",
+    "swagger2-koa": "^1.0.1",
+    "typescript": "^2.8.3",
+    "ts-node": "^4.1.0",
+    "knex": "^0.14.4",
+    "mysql": "^2.15.0",
+    "dotenv": "^4.0.0"
+  }
+}

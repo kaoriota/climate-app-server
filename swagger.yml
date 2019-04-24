@@ -1,0 +1,66 @@
+info:
+  title: ncp-framework
+  version: 1.0.0
+paths:
+  /:
+    get:
+      operationId: IndexController.index
+      responses:
+        '200':
+          description: Successful response
+      summary: Index
+      tags:
+        - Index
+      parameters: []
+      produces:
+        - application/json
+  /config:
+    get:
+      operationId: ConfigurationController.index
+      responses:
+        '200':
+          description: Successful response
+      summary: Index
+      tags:
+        - Configuration
+      parameters: []
+      produces:
+        - application/json
+  /config/system:
+    get:
+      operationId: ConfigurationController.getSystemConfiguration
+      responses:
+        '200':
+          description: Successful response
+      summary: Get system configuration
+      tags:
+        - Configuration
+      parameters: []
+      produces:
+        - application/json
+  /config/setting:
+    get:
+      operationId: ConfigurationController.getSettingConfiguration
+      responses:
+        '200':
+          description: Successful response
+      summary: Get setting configuration
+      tags:
+        - Configuration
+      parameters: []
+      produces:
+        - application/json
+    delete:
+      operationId: ConfigurationController.deleteSettingConfiguration
+      responses:
+        '200':
+          description: Successful response
+      summary: Delete setting configuration
+      tags:
+        - Configuration
+      parameters: []
+      produces:
+        - application/json
+swagger: '2.0'
+definitions: {}
+x-components: {}
