@@ -111,7 +111,7 @@
         "build": "webpack --verbose && yarn app --generateSwagger",
         "clean": "rm -rf dist/*",
         "app": " ts-node -r tsconfig-paths/register ./src/server.ts",
-        "start": "yarn app"
+        "start": "node ./dist/server.js"
     },
     "pre-commit": [
         "lint",
